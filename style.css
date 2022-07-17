@@ -160,3 +160,51 @@ figcaption {
     align-self: flex-end;
     padding-right: 10px;
 }
+
+.subscription {
+    align-items: center;
+}
+
+.subscription-box {
+    background-color: #3882f6;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin: 12%;
+    border-radius: 10px;
+}
+
+.subscription-text {
+    color: #E5E7EB;
+    margin: 5%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sign-up {
+    border: 1px solid white;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    flex: 1;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 40px;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+}
+.copyright p {
+    margin: 0;
+    text-align: center;
+
+}
